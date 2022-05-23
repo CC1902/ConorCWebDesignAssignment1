@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Introduction to HTML by ConorC</title>
+</head>
+	
+	<style>
+		
+		#divexample	{
+					background-color: #000000;
+					width: 400px;
+					color: #f2f2f2;
+					margin: auto;
+					font-size: 140%;
+					text-align: center;
+					border: solid #120C7A 15px;
+					}
+		
+		
+		main	{
+				width: 50%;
+				margin: auto;
+				text-align: left;
+				font-size: 150%;
+				background-color: #ffffff;
+				}
+		
+		span 	{
+				color: #C80609;
+				border-bottom: solid #C80609 3px;
+				font-weight: bold;
+				}
+		
+		table	{
+				background-color:#FFFFFF;
+				font-size:130%;
+				text-align: center;
+				color: #120C7A;
+				border: solid #286FF4 15px;
+				padding: 20px;
+				}
+		
+		th 	{
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			border-bottom: solid #286FF4 10px;
+			}
+			
+		td {
+			width:300px;
+			}
+
+	caption {
+			font-size: 130%;
+			font-weight: bold;
+			color: #120C7A;
+			}
+		
+	</style>
+
+<body>
+<main>
+	<h1>Introduction to HTML by ConorC</h1>
+
+	<h2>DocType </h2> 
+		<p>Stands for 'Document Type Declaration' it defines the type of document for the browser as in which form of html for example  &lt;! doctype html&gt;</p>
+	
+	<h2>HTML</h2> 
+		<p>Stands for 'HyperText Markup Language' it is the standard markup language for pages on browsers. The browser identifies opening &lt;tags&gt; and closing &lt;/tags&gt;.
+		&lt;styles&gt; identifies the style section in the head and contains CSS for the pages styling.	&lt;/styles&gt;</p>
+
+	<h2>Head</h2> 
+		<p>The head is the part of the document that does not appear on the webpage as printed text but can contain the pages stylings through css or related links to web fonts and icons.
+		Code for the head would look like the following: <br> &lt;head&gt; entries &lt;/head&gt;<br>
+		The head contains the document title &lt;title&gt;, CSS styling &lt;style &gt; and  Metadata &lt;meta&gt; 
+	</p>
+
+	<h2>Body</h2> 
+		<p>Is the main part of the html file and it contains all the information which will appear on the webpage like headings, text, images, links, tables, captions etc. The body is below and outside the head section. The code looks like<br> <br> &lt;body&gt; typically lots of other code is contained within the body &lt;/body&gt;</p>
+	
+	<h2>Title</h2> 
+		<p>Is the title of the document for the web browser to display for the document, located within the head section. On viewing this page in your browser, you will see the designated title appear in the tab on your browser. The title appears within the titles opening and closing tags and the code looks like this: &nbsp; &lt;title&gt; Introduction to HTML by ConorC &lt;/title&gt;</p>
+	
+	<h2>P</h2>
+		<p>&lt;p&gt;this is a para&lt;/p&gt;&nbsp;&nbsp;</p>
+		<p>This is a paragraph that is typically used for regular font typed on the page as seen when the &lt;p&gt; tag is used with its closing tag &lt;/p&gt;</p>
+
+	<h2>Span</h2>
+		<p><span>Span</span> is an generic inline container for inline elements and content. It can be used to style text &lt;span&gt; text &lt;/span&gt; in multiple ways, for example: in the following line a span will be used on the word <span>Fox</span>. The rabbit ran into the <span>Fox</span> </p>
+
+	<h2>Div</h2>
+		<p>&lt;div&gt; is a generic means of dividing up your web page into different sections. You could use a div for a header, a footer or sections within your page&lt;/div&gt; for example 
+		&lt;div id="divexample"&gt; my wrapper text &lt;/div&gt;</p> 
+			<div id="divexample">A div is a generic means of dividing up your web page into different sections. You could use a div for a header, a footer or to stylise sections within your page</div>
+	
+	<h2>Heading elements H1-H6</h2>
+		<p>Headings are used to title a section for example. h1 is the largest preset heading sized heading and thereafter the headings get smaller ending with h6. An example of the code: &lt;h1&gt; Introduction &lt;/h1&gt;</p>	
+			<h1>H1 heading - Introduction</h1>
+			<h2>H2 heading - Introduction</h2>
+			<h3>H3 heading - Introduction</h3>
+			<h4>H4 heading - Introduction</h4>
+			<h5>H5 heading - Introduction</h5>
+			<h6>H6 heading - Introduction</h6>
+
+	<h2>Formating Elements : strong, emphasis..</h2>
+		<p>Formating elements are ways for you to style or format text in line with common features available in word. <br> <br>
+		For example to make a word appear in bold like 		<strong> URGENT</strong> the code could look like  &lt;strong&gt; URGENT &lt;/strong&gt; <br><br>
+		Another is emphasis:
+			<em>Emphasis is where an italicised style is applied,</em> here the tags are &lt;em&gt;Emphasised text &lt;/em&gt; <br> <br>
+			<u> A third example is underlining text with the &lt;u&gt; &amp;&lt;/u&gt; tags</u><br>&lt;u&gt; typed text to be underlined&lt;/u&gt;</p>
+
+	<h2>Tables &amp; Captions</h2>
+		<p>Tables are able to be inserted into your webpage. A caption defines or titles the table. Typically the code for these looks like: 
+		<br> 
+		&lt;table&gt;<br>
+		&lt;caption&gt;My Table&lt;/caption&gt;<br>
+	  	&lt;tr&gt;<br>
+			&lt;th&gt;Hello&lt;/th&gt;<br>
+			&lt;th&gt;Goodbye&lt;/th&gt; <br>
+		&lt;/tr&gt;<br>
+		&lt;tr&gt;<br>
+		&lt;td&gt;Hello, a greeting on meeting a person 
+		&lt;/td&gt; <br>
+		&lt;td&gt;Goodbye, an appropriate ending to a conversation&lt;/td&gt;<br>
+		&lt;/tr&gt;<br>
+		&lt;/table&gt;
+
+	<table>	
+		<caption>My Table</caption>
+	  	<tr>
+			<th>Hello</th>
+			<th>Goodbye</th></tr>
+		<tr>
+		<td>Hello, a greeting on meeting a person</td><td>Goodbye, an appropriate ending to a conversation</td>
+		</tr>
+	</table>
+	
+	<h2>Lists</h2>
+		<p>Lists are used to display lists of items they can be ordered &lt;ol&gt; or unordered &lt;ul&gt; or definition lists &lt;dl&gt;. Ordered lists are numbered in descending order and unordered lists have no numbering just bullet points. Definition lists present an item in a list followed bu their definitions. Having decided which list style you like - list items are then inserted. The code for these would look like:<br>
+	&lt;ol&gt;	<br>
+	&lt;li&gt; Apples&lt;/li&gt;<br>
+	&lt;li&gt; Oranges &lt;/li&gt;<br>
+	&lt;/ol&gt;	
+	<ol>Ordered List<li>Apples</li><li>Oranges</li></ol>
+	
+	&lt;ul&gt;	<br>
+	&lt;li&gt; Apples&lt;/li&gt;<br>
+	&lt;li&gt; Oranges &lt;/li&gt;<br>
+&lt;/ul&gt;</p>
+	
+	<ul>Unordered List<li>Apples</li><li>Oranges</li></ul>
+	
+	<p>&lt;dl&gt;	<br>
+	&lt;dt&gt; Apples&lt;/dt&gt; &lt;dd&gt; Definition&lt;/dd&gt;<br>
+	&lt;dt&gt; Oranges &lt;/dt&gt;&lt;dd&gt; Definition&lt;/dt&gt;<br>
+&lt;/dl&gt;</p>
+	
+	<dl>Description List<dt>Apples</dt><dd>An Apple a day keeps the doctor away</dd><dt>Oranges</dt><dd>A great source of vitamin C on the seas</dd></dl>
+	
+<h2>Images &amp; Alt</h2>
+	<p>Images are inserted and alt's define the name of the particular image. The coding looks like: <br>
+	&lt;img src="images/smallogo.png" alt="Logo home"&gt;<br> If the image does not load as a result of the file not being properly identified, then the alt title will appear alongside a generic image icon. Below is a properly appearing logo and how it appears when the file location isnt entered properly.</p> 
+	<img src="smallogo.png" alt="Logo home">
+	<img src="ima/smallogo.png" alt="Logo home">
+	
+<h2>Links</h2>
+	<p>Links or Hyperlinks are ways for you to place a hyperlink to other pages, or to view a picture in a new web browser tab. Links appear in code as: <br>&lt;a&gt; HSE&lt;/a&gt; This link needs a refernce point: <br> 
+	&lt;a href="https://www.hse.ie/eng/"&gt; HSE&lt;/a&gt;<br> Here is an example of how it appears on the webpage. 
+	<a href="https://www.hse.ie/eng/"> HSE</a>
+	</p>
+	
+<h2>Quote &amp; Blockquote</h2>
+	<p>Quote &amp; Blockquote are similar features around inserting quotes. For quotes the tag q is used and the code would look like this <br>&lt;q&gt; Life is like a box of Chocolates&lt;/q&gt;<br> 
+		Forrest Gumps said <q>Life is like a box of chocolates</q><br><br>
+	Blockquote displays the quote in a block seperate to the regular text as happens in some academic works. The code looks like this<br> &lt;blockquote&gt; Life is like a box of chocolates &lt;/blockquote&gt;<br>
+	And Forrest Gump said 
+	<blockquote> Life is like a box of chocolates, you never know what you're gonna get.</blockquote></p>
+	
+<h2>Abbreviations</h2>
+	<p>Abrreviations can be added into your document with the code &lt;abbr title="HyperText Markup Language"&gt; HTML&lt;/abbr&gt;. The title added can appear on the webpage when the abbreviated text is hovered over as seen here <abbr title="HyperText Markup Language">HTML</abbr></p>
+
+<h2>Meta</h2>
+	<p>Meta is data about data. Located in the head Meta can define the character set, page data, keywords in the content or the author. A common meta code identifies keywords and meta coding can look like this<br>
+	&lt;meta charset="utf-8"&gt;<br>
+	&lt;meta name="keywords" content="HTML, Head, Quote"&gt;</p>
+
+<h2>Forms</h2>
+	<p>Forms allow a viewer of your webpage to enter data into fields and complete the form. The code looks like 
+		&lt;form&gt; &lt;label for="fname"&gt;First name:&lt;/label&gt;<br>
+		&lt;input type="text" id="fname" name="fname"&gt; &lt;/form&gt; Below is an example of this code applied on the webpage. 
+
+<form>
+  <label for="fname">First name:</label><br>
+	<input type="text" id="fname" name="fname"></form>
+</p>
+
+<h2>Special symbols and character entities:</h2>
+	<p>Special symbols and character are encoded with unique identifiers. This can be useful as browsers can be thrown off by using symbols that are commonly used in the coding language and other times you might struggle to find a symbol on your keyboard.
+		For these symbols below the coding will be displayed in bracket.
+  <ul>
+			<li>Copyright - displayed via (&amp;copy;) &copy;</li>
+			<li>Registered Trademark - displayed via (&amp;reg;) &reg;</li>
+			<li>Ampersand - displayed via (&amp;amp;) &amp;</li>
+			<li>Euro - displayed via (&amp;euro;) &euro;</li>
+			<li>Non-breaking space - displayed via (&amp;nbsp;) &nbsp;</li>
+			<li>less than - displayed via(&amp;lt;) &lt;</li>
+			<li>greater than - displayed via (&amp;gt;) &gt;</li>
+</ul></p>
+	
+	<a href="css_assignment.html">ConorC WebDesign Assignment1</a>
+</main>	
+</body>
+</html>
